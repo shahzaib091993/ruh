@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.primary{
+    display: flex;
+    justify-content: center;
+    gap: 20%;
+    background-color: rgb(117, 117, 117);
+    padding: 12px;
+    
+}
+.primary h5{
+    font-size: 18px;
+    font-weight: bold;
+     color: whitesmoke;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+   gap: 15px;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 300;
+    font-style: normal;
+      font-family: Poppins;
+      color: whitesmoke;
+}
+.shift{
+    flex-direction: column;
+    display: none;
+    position: absolute;
+    background-color: whitesmoke;
+    padding: 10px;
+    line-height: 35px;
+    border-radius: 15px;
+}
+.dropdown:hover .shift{
+    display: block;
+}
+
+ i:hover{
+    transform: rotate(180deg);
+  
+}
+i{
+    font-size: 10px;
+      transform: 0.1 ease;
+}
+.shift  li a{
+    color: black;
+}
+.shift li a:hover{
+    color: blue;
+}
+.primary input{
+    /* width: 60%; */
+    padding: 5px;
+    border: none;
+    font-size: 12px;
+    border-radius: 5px;
+}
+.primary button{
+    /* width: 100px; */
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+
+}
+.ss{
+    display: flex;
+justify-content: space-between;
+   
+}
+
+ .hero:hover{
+    text-decoration: underline;
+ }
+ .hero{
+    margin-top: 15px;
+    margin-left: 15px;
+ }
+ .hero h1{
+    color: whitesmoke;
+ }
+ .hero img{
+    position: relative;
+ }
+ .hero h1{
+    position: absolute;
+    top: 12%;
+    z-index: 1;
+
+    
+ }
+  @media (max-width:786px) {
+     .primary{
+        display: block;
+     }
+     /* header{
+        background-color: black;
+     } */
+      .primary h5{
+     font-size: 25px;
+     margin-bottom: 15px;
+     margin-left: 15px;
+      }
+     nav ul li a{
+        padding: 20px;
+       
+     }
+     .primary i{
+        position: absolute;
+        top: 6%;
+        left: 12%;
+     }
+      nav ul li a{
+        font-size: 22px;
+        
+     }
+     .primary input{
+        width: 50%;
+        padding: 5px;
+        margin-top: 25px;
+        margin-left: 18px;
+     }
+     .hero h1{
+        position: absolute;
+        top: 15%;
+     }
+     
+     
+ } 

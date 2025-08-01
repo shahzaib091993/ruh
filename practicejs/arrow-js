@@ -1,0 +1,47 @@
+
+
+
+// const user ={
+//     userName: "shah",
+//     price: 999,
+//      welCome:function() {
+//     console.log(`${this.userName}`);
+//     // console.log(this);
+    
+//    }
+// }
+
+
+// user.welCome()
+// user.userName ="zain"
+// user.welCome()
+
+// console.log(this);
+ 
+
+// function chai(){
+//     console.log(this);
+    
+// }
+// chai()
+
+
+// const coffe = (num1,num2) => (num1+num2)
+// const coffe = (num1,num2) => {(coffe: "shah")}
+   
+
+// console.log(coffe(3,6));
+
+
+////////////iffi/////////////
+
+(   function chai() {
+   console.log(`db connected`);
+   
+})();
+
+(  (name) => {
+ console.log(`db connected two ${name}`);
+ 
+})('shagi')
+

@@ -1,0 +1,104 @@
+//functions
+
+
+// function addTwoNumbers  (number1 , number2){
+//        console.log(number1 + number2);
+       
+
+// }
+//  function addTwoNumbers  (number1 , number2){
+//        let result = number1 + number2
+//        return result
+
+//  }
+
+// const result = addTwoNumbers(3,8)
+// console.log(result);
+
+// function myLaptopHp (myname){
+//     if(!myname){
+//       console.log("plz enter a username");
+      
+//     }
+//     let result = myname
+//     return 
+// }
+// console.log(myLaptopHp("shah"));
+ 
+
+// function calculatePrice (val1,val2,...mybill){
+//      return mybill
+// }
+// console.log(calculatePrice(200,300,499,333));
+
+
+
+// console.log(myName(myArray,myArrays,myArraye));
+// const myArray = [100, 200,300];
+// const myttta = [100, 700,300];
+// const mytttd = [100, 700,300];
+// const myttth = [100, 700,300];
+// const mytttk = [100, 700,300];
+// for (let i = 0; i < myArray.length; i++) {
+// //   console.log(`Index: ${i}, Value: ${myArray[1,2,3]}`);
+// console.log(myArray[2] , myArray[1] , myArray[0])
+// }
+// console.log(myArray[1] + ' ' + myttt[1]);
+
+
+//  const Object1 ={
+//     userName:"shah",
+//     price:200
+//  }
+//  const Object2 ={
+//     userName:"John",
+//     price:100
+
+//  }
+//  function notObject(anyobject){
+//    console.log(`username is ${anyobject.userName} and price is${anyobject.price}`);
+//  }
+//  notObject(Object1)
+//  notObject(Object2)
+
+
+// function myName(myKey1){
+//   console.log(myKey1[0]);
+  
+// }
+// myName(myArray)
+// myName(myttt)
+// myName(mytttd)
+
+
+const myNumber = {
+    userName:"shagi",
+    lastName:"zaib",
+    age:19,
+    myWork:"deveolpment"
+}
+const myNumber1 = {
+    userName:"shagi",
+    lastName:"zaib",
+    age:19,
+    myWork:"deveolpment"
+}
+function myHobby(myphone){
+  console.log(`userName is${myphone.userName} lastName is ${myphone.lastName} age is ${myphone.age}`);
+  
+}
+myHobby(myNumber)
+myHobby(myNumber1)
+
+
+const myUni =["shah","shagi","shahzaib"]
+const myUni2 =["shah","shagi","shahzaib"]
+
+function myDepartment(cs4){
+    console.log(cs4[0,2]);
+    
+}
+myDepartment(myUni)
+myDepartment(myUni2)
+
+

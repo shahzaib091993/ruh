@@ -1,0 +1,120 @@
+//singleton
+ 
+
+
+ const mySym = Symbol("key1")
+ 
+
+const shUsers = {}
+shUsers.id = "123hdj",
+shUsers.name = "sam"
+
+const jsUsers = {
+    name : "shagi",
+    age: 22,
+    [mySym]:"myKey1",
+    email: "shagi.@google.com",
+    location: "khanewal",
+    lastLogginDays: ["monday","tuesday"]
+}
+   
+  jsUsers.email = "shah@youtube.com"
+  jsUsers.name ="shah"
+  console.log(jsUsers);
+  
+
+   console.log(jsUsers["name"]);
+   
+  console.log(typeof jsUsers[mySym]);
+ 
+  
+jsUsers.greeting = function(){
+    console.log("Hello john");
+    
+ }
+ jsUsers.greetingtwo = function(){
+     console.log(`Hello john, ${this.name}`);
+     console.log(`Hello john, ${this.age}`);
+    
+ }
+console.log(jsUsers.greeting());
+ console.log(jsUsers.greetingtwo());
+
+//object part 2 constructor
+
+const  dailyUser = {
+ email:"sha@facebook.com",
+  name:{
+    fullname:{
+        fisrtname:"shah",
+        lastname:"zaib"
+    }
+  }
+}
+console.log(dailyUser.name.fullname.fisrtname);
+ 
+
+const obj1 = {1: "w", 2: "u"}
+const obj2 = {2: "y", 5: "g"}
+
+
+ const obj3 = { obj1, obj2 }
+ console.log(obj3);
+ 
+ const obj9 = Object.assign({},obj1,obj2)
+ console.log(obj1);
+
+
+const Users=[
+    {
+        id:1,
+        email:"sh@book.com"
+    },
+    {
+        id:1,
+        email:"sh@book.com"
+    },
+     {
+        id:1,
+        email:"sh@book.com"
+    },
+     {
+        id:1,
+        email:"sh@book.com"
+    },
+]
+//  console.log(jsUsers);
+ 
+Users[1].email
+
+console.log(shUsers);
+
+console.log(Object.keys(shUsers));
+
+
+console.log(Object.values(shUsers));
+
+
+console.log(Object.entries(shUsers));
+
+
+console.log(Object.toString(shUsers));
+
+
+ console.log(shUsers.hasOwnProperty('id'));
+ 
+
+//de-structure
+
+let course = {
+    courseName:"novel",
+    coursePrice: "999",
+    courseInstructor:"shagi"
+
+}
+// console.log(courseInstructor);
+// course.courseInstructor
+const {courseInstructor:Instructor} = course
+
+console.log(Instructor);
+
